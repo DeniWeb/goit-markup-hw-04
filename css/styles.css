@@ -426,6 +426,15 @@ img {
     padding: 100px 0;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-webstudio {
+    margin-right: 120px;
+}
+
 .logo-footer-span {
     color: #f4f4fd;
 }
@@ -440,4 +449,45 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.social-media {}
+
+.social-media-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socil-media-icon {
+    fill: #f4f4fd;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+    background-color: #31d0aa;
 }
